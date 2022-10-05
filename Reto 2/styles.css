@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Mono', monospace;
+    background-image: linear-gradient(180deg, #81fff3 0, #6effed 16.67%, #5ef3e3 33.33%, #55d8d3 50%, #50bec0 66.67%, #4ea7af 83.33%, #4e949f 100%);}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 50vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 2px 2px #d3ff8b inset;
+    border-radius: 15px;
+    background-image: linear-gradient(180deg, #d3ff8b 0, #bbff91 10%, #a3fc97 20%, #89f29c 30%, #6fe69f 40%, #55d8a0 50%, #3ac9a0 60%, #1bbda0 70%, #00b2a0 80%, #00a8a1 90%, #00a1a3 100%);
+}
+
+.first-container {
+    display: flex;
+    gap: 5vw;
+}
+
+.second-container {
+    display: flex;
+    gap: 5vw;
+}
+
+.third-container {
+    display: flex;
+    gap: 5vw;
+}
+
+.prestamo-container, .meses-container, .interes-container {
+    width: 24vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #74ff9e;
+    color: black;
+    border: none;
+}
+
+.cuota {
+    display: flex;
+    gap: 5vw;
+}
